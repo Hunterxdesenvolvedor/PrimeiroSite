@@ -1,8 +1,21 @@
 body{
-    background: grey;
+    background: rgb(189, 184, 184);
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+.photo {
+    border-radius: 50px;
 }
 #title {
 color: yellow;
+font-size: 40px;
+text-transform: uppercase;
+
+}
+a {
+    text-decoration: line-through;
+    color: #505050;
 
 }
 .subtitle {
@@ -14,18 +27,48 @@ color: yellow;
 .post_title {
     color: blueviolet;
     font-size: 30px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
 }
 
 article {
-    background: black;
-    padding: 10px;
+    background: rgb(247, 244, 244);
+    padding: 15px;
     border: 3px solid black;
-    margin: 1px;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
 p {
-    font: 10px;
-    margin: 1px;
-    color: hotpink;
+    font: 15px;
+    margin-left: 150px;
+    margin-bottom: 200px;
+    margin-top: 150px;
+    margin-top: 200px;
+    color: black;
+    
 
+}
+.post_content { 
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.post_image {
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+.contants_list {
+    list-style-type: none;
+    padding-left: 32px;
+    
+
+}
+
+.contants_list li a {
+    text-decoration: none;
 }
 
